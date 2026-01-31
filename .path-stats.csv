@@ -8,7 +8,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/_deleted,GET,com.nokia.eda.nutanix.v1.NutanixPluginInstance_DeletedResources,,false,false,false
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name},DELETE,Status,nutanix_plugin_instance,true,false,true
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name},GET,com.nokia.eda.nutanix.v1.NutanixPluginInstance,nutanix_plugin_instance,true,true,true
-/apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name},PATCH,Patch,,false,false,false
+/apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name},PATCH,com.nokia.eda.nutanix.v1.NutanixPluginInstance,,false,false,false
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name},PUT,com.nokia.eda.nutanix.v1.NutanixPluginInstance,nutanix_plugin_instance,true,false,true
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name}/_revs,GET,ResourceHistory,,false,false,false
 /apps/nutanix.eda.nokia.com/v1/nutanixplugininstances/{name}/_targets,GET,IntentTargets,,false,false,false
